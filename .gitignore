@@ -1,0 +1,15 @@
+# Python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+.pytest_cache/
+
+# Git stuff
+.DS_Store
+
+# IMPORTANT: Do NOT ignore state.json or evolution_log.md
+# as they are the "DNA" of the autonomous projects.

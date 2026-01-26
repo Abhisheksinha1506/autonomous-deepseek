@@ -1,0 +1,39 @@
+name: Deepseek Autonomous Suite
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Every 15 minutes
+  workflow_dispatch:      # Manual trigger
+
+concurrency: deepseek-evolution
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Run Evolution Loops
+        run: |
+          # Loop through all directories at the root (the mathematical projects)
+          for dir in */; do
+            # Skip hidden directories and the .git folder
+            if [[ "$dir" == .* ]]; then continue; fi
+            
+            if [ -f "$dir/evolve.py" ]; then
+              echo "Evolving: $dir"
+              (cd "$dir" && python3 evolve.py)
+            fi
+          done
+          
+      - name: Commit All Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Deepseek Autonomous Update: All systems evolved"

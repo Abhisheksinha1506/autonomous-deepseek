@@ -1,0 +1,20 @@
+name: Autonomous Evolution
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+concurrency: autonomous-evolution
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Evolve
+        run: python evolve.py
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Auto-evolution Update'

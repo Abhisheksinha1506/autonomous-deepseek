@@ -1,0 +1,1 @@
+Next: SHA256(this)[0:8]
