@@ -1,6 +1,6 @@
 # Lamarckian Library
 
-![Autonomous System Status](https://github.com/OWNER/REPO/actions/workflows/autonomize.yml/badge.svg)
+![Autonomous System Status](https://github.com/Abhisheksinha1506/autonomous-deepseek/actions/workflows/deepseek-autonomous.yml/badge.svg)
 
 ## ⬅️ [Back to Master Dashboard](../README.md)
 
@@ -8,7 +8,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 0 | Project Initialized | 2026-01-26 15:05 |
+| 0 | Project Initialized | 2026-01-26 15:14 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 Pro-Link Discovery

@@ -263,7 +263,7 @@ PROJECTS = [
 # README and MASTER TEMPLATES remain similar but with link improvements
 README_TEMPLATE = """# {title}
 
-![Autonomous System Status](https://github.com/OWNER/REPO/actions/workflows/autonomize.yml/badge.svg)
+![Autonomous System Status](https://github.com/Abhisheksinha1506/autonomous-deepseek/actions/workflows/deepseek-autonomous.yml/badge.svg)
 
 ## ⬅️ [Back to Master Dashboard](../README.md)
 
