@@ -2,11 +2,15 @@ name: Autonomous PR Validator
 on:
   pull_request:
     branches: [ main ]
+  workflow_dispatch:      # Enable manual testing
 
 jobs:
   validate:
     runs-on: ubuntu-latest
-    if: startsWith(github.head_ref, 'mutation/')
+    # Run if it's a PR from the autonomous engines OR a manual trigger for testing
+    if: |
+      github.event_name == 'workflow_dispatch' || 
+      (github.event_name == 'pull_request' && startsWith(github.head_ref, 'mutation/'))
     permissions:
       contents: write
       pull-requests: write
