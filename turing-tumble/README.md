@@ -1,23 +1,50 @@
-# Turing Tumble in Git
+# Marbled Logic Network — Activation of component files via hash pointers.
 
-![Autonomous System Status](https://github.com/Abhisheksinha1506/autonomous-deepseek/actions/workflows/deepseek-autonomous.yml/badge.svg)
-
-## ⬅️ [Back to Master Dashboard](../README.md)
+⬅️ [Back to Expansion Catalog](../README.md)
 
 ## 📢 Latest Status
 <!-- LATEST_STATUS_START -->
-| Generation | Narrative Event | Timestamp |
-| :--- | :--- | :--- |
-| 0 | Project Initialized | 2026-01-26 15:14 |
+Awaiting the first autonomous evolution step...
 <!-- LATEST_STATUS_END -->
 
-## 📖 Pro-Link Discovery
-- **State**: [[state.json]](state.json)
-- **Engine**: [[evolve.py]](evolve.py)
-- **Manifest**: [[data/]] directory
+## 📖 The Analogy
+> "A digital Rube Goldberg machine where files knock each other over in a sequence."
 
-## 🧠 Autonomous Principle
-**Deterministic Logic Flow**
+Self-evolving repository implementing Marbled Logic Network.
+
+## 🧠 Mathematical Concept
+**Network Analysis** — Logic Gate Execution
+
+This repository implements this concept autonomously. Instead of a human programmer making decisions, the system follows these mathematical laws to reorganize itself over time.
+
+## 🎯 What This Does
+Every day, the repository breathes:
+1. **Scanning**: It looks at the current [[state.json]](state.json).
+2. **Calculating**: It applies the laws of Network Analysis to decide what happens next.
+3. **Evolving**: It creates or modifies files in the [data/](data/) directory.
+4. **Reporting**: It updates this README and logs the progress in [evolution_log.md](evolution_log.md).
+
+## 🚀 Running Locally
+```bash
+python evolve.py  # Run one evolution step manually
+```
+
+## 📖 Non-Technical Explanation
+A digital Rube Goldberg machine where files knock each other over in a sequence. This means the repository isn't just static code—it's a living system where files interact, compete, or grow according to rules, just like plants in a garden or planets in orbit.
+
+## ✨ Expected Output
+A Network Analysis-driven digital ecosystem where structure emerges from pure logic.
+
+## 💎 Why it matters (Usefulness)
+Demonstrates Logic Gate Execution at scale. It shows how complex, beautiful systems can maintain themselves without human interference.
+
+## 🔬 Technical Details
+- **Algorithm**: Deterministic implementation of Logic Gate Execution
+- **State**: Persistent JSON storage for continuity
+- **Automation**: GitHub Actions (runs every 15 minutes)
+
+## 🏘️ Neighboring Organisms
+⬅️ Previous: [busy-beaver-hunter](../busy-beaver-hunter/README.md) ➡️ Next: [oracle-of-ramsey](../oracle-of-ramsey/README.md)
 
 ---
-**Trigger**: Hourly signal propagation. | **Status**: 🟢 Active | **Output**: Narrative.
+Status: 🟢 Fully Autonomous | Tier: 11 | Autonomy: ⭐⭐⭐⭐⭐
