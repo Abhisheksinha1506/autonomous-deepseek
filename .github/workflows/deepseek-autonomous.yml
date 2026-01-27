@@ -37,3 +37,16 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Deepseek Autonomous Update: All systems evolved"
+
+      - name: Report Failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🚨 DeepSeek Autonomous Evolution Failure',
+              body: 'The autonomous deepseek evolution workflow failed. Please check the [Actions log](' + context.payload.repository.html_url + '/actions/runs/' + context.runId + ') for details.',
+              labels: ['workflow-failure', 'deepseek-evolution']
+            })
