@@ -17,3 +17,6 @@
 
 ### Gen 6 | 2026-01-27T16:01
 - Chaotic drift shifted coordinates to x=0.90.
+
+### Gen 7 | 2026-01-27T16:49
+- Chaotic drift shifted coordinates to x=1.55.
