@@ -18,6 +18,8 @@ def log_evolution(gen, event):
     with open(log, "a") as f: f.write(f"\n### Gen {gen} | {datetime.now().isoformat()[:16]}\n- {event}\n")
 
 def update_readme(gen, event):
+    from pathlib import Path
+    from datetime import datetime
     readme_path = Path("README.md")
     if not readme_path.exists(): return
     try:
@@ -31,11 +33,11 @@ def update_readme(gen, event):
         suffix = end + suffix_parts[1]
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
         row = f"| {gen} | {event} | {timestamp} |"
-        new_inner = f"
+        new_inner = f"""
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
 {row}
-"
+"""
         readme_path.write_text(prefix + new_inner + suffix)
     except Exception as e: print(f"⚠️ README Update Failed: {e}")
 
