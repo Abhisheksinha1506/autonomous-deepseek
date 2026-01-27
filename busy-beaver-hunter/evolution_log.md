@@ -20,3 +20,6 @@
 
 ### Gen 7 | 2026-01-27T20:50
 - The hunter searched program space; record holds.
+
+### Gen 8 | 2026-01-27T21:56
+- The hunter searched program space; record holds.
