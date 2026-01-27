@@ -1,7 +1,7 @@
 name: Deepseek Autonomous Suite
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Every 15 minutes
+    - cron: '0,15,30,45 * * * *'  # Every 15 minutes (IST: :30, :45, :00, :15)
   workflow_dispatch:      # Manual trigger
 
 concurrency: deepseek-evolution
