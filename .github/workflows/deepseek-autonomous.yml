@@ -20,6 +20,11 @@ jobs:
         with:
           python-version: '3.11'
       
+      - name: Install Dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install numpy networkx matplotlib
+          
       - name: Run Evolution Loops
         run: |
           # Loop through all directories at the root (the mathematical projects)
@@ -28,8 +33,11 @@ jobs:
             if [[ "$dir" == .* ]]; then continue; fi
             
             if [ -f "$dir/evolve.py" ]; then
-              echo "Evolving: $dir"
-              (cd "$dir" && python3 evolve.py)
+              echo "------------------------------------------------"
+              echo "🚀 Evolving: $dir"
+              # run in subshell, || true to ensure loop continues even if one project fails
+              (cd "$dir" && python3 evolve.py) || echo "⚠️ Warning: $dir evolution failed"
+              echo "------------------------------------------------"
             fi
           done
           
