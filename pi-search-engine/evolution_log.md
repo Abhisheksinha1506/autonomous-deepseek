@@ -47,3 +47,6 @@
 
 ### Gen 16 | 2026-01-27T21:44
 - Walked further into Pi's digits to index 372.
+
+### Gen 17 | 2026-01-27T22:30
+- Walked further into Pi's digits to index 404.
