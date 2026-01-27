@@ -1,10 +1,11 @@
+concurrency: deepseek-evolution
+
 name: Deepseek Autonomous Suite
 on:
   schedule:
     - cron: '0,15,30,45 * * * *'  # Every 15 minutes (IST: :30, :45, :00, :15)
   workflow_dispatch:      # Manual trigger
 
-concurrency: deepseek-evolution
 
 jobs:
   evolve:
@@ -41,6 +42,13 @@ jobs:
             fi
           done
           
+      - name: Fetch and Rebase
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git pull --rebase origin main
+
       - name: Commit All Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
