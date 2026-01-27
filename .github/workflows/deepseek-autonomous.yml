@@ -1,11 +1,11 @@
-concurrency: deepseek-evolution
+
+concurrency: autonomous-deepseek-evolution
 
 name: Deepseek Autonomous Suite
 on:
   schedule:
     - cron: '0,15,30,45 * * * *'  # Every 15 minutes (IST: :30, :45, :00, :15)
   workflow_dispatch:      # Manual trigger
-
 
 jobs:
   evolve:
@@ -50,6 +50,8 @@ jobs:
           git pull --rebase origin main
 
       - name: Commit All Changes
+
+      - name: Commit Evolution Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Deepseek Autonomous Update: All systems evolved"
