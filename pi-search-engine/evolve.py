@@ -18,13 +18,26 @@ def log_evolution(gen, event):
     with open(log, "a") as f: f.write(f"\n### Gen {gen} | {datetime.now().isoformat()[:16]}\n- {event}\n")
 
 def update_readme(gen, event):
-    readme = Path("README.md")
-    if not readme.exists(): return
-    content = readme.read_text(); start, end = "<!-- LATEST_STATUS_START -->", "<!-- LATEST_STATUS_END -->"
-    row = f"| {gen} | {event} | {datetime.now().strftime('%Y-%m-%d %H:%M')} |"
-    if start in content and end in content:
-        parts = content.split(start); suffix = parts[1].split(end)[1]
-        readme.write_text(f"{parts[0]}{start}\n| Generation | Narrative Event | Timestamp |\n| :--- | :--- | :--- |\n{row}\n{end}{suffix}")
+    readme_path = Path("README.md")
+    if not readme_path.exists(): return
+    try:
+        content = readme_path.read_text()
+        start = "<!-- LATEST_STATUS_START -->"
+        end = "<!-- LATEST_STATUS_END -->"
+        if start not in content or end not in content: return
+        parts = content.split(start)
+        suffix_parts = parts[1].split(end)
+        prefix = parts[0] + start
+        suffix = end + suffix_parts[1]
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+        row = f"| {gen} | {event} | {timestamp} |"
+        new_inner = f"
+| Generation | Narrative Event | Timestamp |
+| :--- | :--- | :--- |
+{row}
+"
+        readme_path.write_text(prefix + new_inner + suffix)
+    except Exception as e: print(f"⚠️ README Update Failed: {e}")
 
 def main():
     state = load_state()
