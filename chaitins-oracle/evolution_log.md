@@ -107,3 +107,6 @@
 
 ### Gen 36 | 2026-01-28T11:55
 - The Oracle saw a program 'loop' (0).
+
+### Gen 37 | 2026-01-28T12:58
+- The Oracle peered into the abyss and saw a program 'halt' (1).

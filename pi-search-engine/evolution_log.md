@@ -104,3 +104,6 @@
 
 ### Gen 35 | 2026-01-28T11:55
 - Walked further into Pi's digits to index 770.
+
+### Gen 36 | 2026-01-28T12:58
+- Walked further into Pi's digits to index 791.
