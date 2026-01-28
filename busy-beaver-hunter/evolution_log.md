@@ -41,3 +41,6 @@
 
 ### Gen 14 | 2026-01-28T07:50
 - The hunter found a new record holder: 34 steps.
+
+### Gen 15 | 2026-01-28T09:06
+- The hunter found a new record holder: 36 steps.
