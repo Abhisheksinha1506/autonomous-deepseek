@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 33 | The pendulum swung; current time-state: 1. | 2026-01-29 13:05 |
+| 34 | The pendulum swung; current time-state: 0. | 2026-01-29 14:05 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
