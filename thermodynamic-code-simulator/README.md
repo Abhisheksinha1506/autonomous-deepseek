@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 72 | Energy radiated into void; system at 48.49K. | 2026-01-29 19:10 |
+| 73 | Energy radiated into void; system at 48.01K. | 2026-01-29 19:45 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
