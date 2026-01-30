@@ -251,3 +251,6 @@
 
 ### Gen 84 | 2026-01-30T05:36
 - Chaotic drift shifted coordinates to x=2.90.
+
+### Gen 85 | 2026-01-30T06:30
+- Chaotic drift shifted coordinates to x=2.73.
