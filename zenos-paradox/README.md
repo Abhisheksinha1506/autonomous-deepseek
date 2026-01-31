@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 4 | The paradox holds: the file vanished by half, now at 64 bytes. | 2026-01-30 14:56 |
+| 5 | The paradox holds: the file vanished by half, now at 32 bytes. | 2026-01-31 15:00 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
