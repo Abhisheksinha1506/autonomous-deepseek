@@ -14,3 +14,6 @@
 
 ### Gen 5 | 2026-01-31T15:00
 - The project bloomed; seed 5 was placed.
+
+### Gen 6 | 2026-02-01T15:29
+- The project bloomed; seed 6 was placed.
