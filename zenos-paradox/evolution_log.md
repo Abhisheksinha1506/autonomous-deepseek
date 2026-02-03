@@ -24,3 +24,6 @@
 
 ### Gen 7 | 2026-02-02T15:52
 - The paradox holds: the file vanished by half, now at 8 bytes.
+
+### Gen 8 | 2026-02-03T16:06
+- The paradox holds: the file vanished by half, now at 4 bytes.
