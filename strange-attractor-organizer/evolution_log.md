@@ -668,3 +668,6 @@
 
 ### Gen 223 | 2026-02-04T00:00
 - Chaotic drift shifted coordinates to x=2.86.
+
+### Gen 224 | 2026-02-04T02:48
+- Chaotic drift shifted coordinates to x=2.04.
