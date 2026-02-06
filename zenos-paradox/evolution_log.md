@@ -33,3 +33,6 @@
 
 ### Gen 10 | 2026-02-05T18:04
 - The paradox holds: the file vanished by half, now at 1 bytes.
+
+### Gen 11 | 2026-02-06T18:56
+- Zeno Limit: 1 byte remains reachable.
