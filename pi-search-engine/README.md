@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 372 | Walked further into Pi's digits to index 7797. | 2026-02-09 14:02 |
+| 373 | Walked further into Pi's digits to index 7832. | 2026-02-09 15:11 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
