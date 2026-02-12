@@ -47,3 +47,6 @@
 
 ### Gen 16 | 2026-02-11T20:22
 - The project bloomed; seed 16 was placed.
+
+### Gen 17 | 2026-02-12T20:42
+- The project bloomed; seed 17 was placed.
