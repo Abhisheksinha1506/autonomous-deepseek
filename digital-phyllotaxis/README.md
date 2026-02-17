@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 21 | The project bloomed; seed 21 was placed. | 2026-02-16 21:14 |
+| 22 | The project bloomed; seed 22 was placed. | 2026-02-17 21:42 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
