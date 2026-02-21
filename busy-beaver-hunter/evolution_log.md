@@ -1157,3 +1157,6 @@
 
 ### Gen 386 | 2026-02-21T15:51
 - The hunter searched program space; record holds.
+
+### Gen 387 | 2026-02-21T17:02
+- The hunter found a new record holder: 210 steps.

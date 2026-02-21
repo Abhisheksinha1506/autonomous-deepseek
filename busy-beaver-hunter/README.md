@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 386 | The hunter searched program space; record holds. | 2026-02-21 15:51 |
+| 387 | The hunter found a new record holder: 210 steps. | 2026-02-21 17:02 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
