@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 732 | Chaotic drift shifted coordinates to x=2.83. | 2026-02-23 12:02 |
+| 733 | Chaotic drift shifted coordinates to x=1.98. | 2026-02-23 13:42 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
