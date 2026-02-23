@@ -1262,3 +1262,6 @@
 
 ### Gen 421 | 2026-02-23T22:03
 - The hunter searched program space; record holds.
+
+### Gen 422 | 2026-02-23T23:47
+- The hunter searched program space; record holds.
