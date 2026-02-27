@@ -1439,3 +1439,6 @@
 
 ### Gen 480 | 2026-02-27T18:01
 - The hunter searched program space; record holds.
+
+### Gen 481 | 2026-02-27T19:03
+- The hunter searched program space; record holds.
