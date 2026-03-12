@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 1207 | Droplets drifted closer. | 2026-03-12 22:32 |
+| 1208 | Droplets drifted closer. | 2026-03-12 23:01 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
