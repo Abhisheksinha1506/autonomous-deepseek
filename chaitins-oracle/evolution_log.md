@@ -3599,3 +3599,6 @@
 
 ### Gen 1200 | 2026-03-12T16:16
 - The Oracle saw a program 'loop' (0).
+
+### Gen 1201 | 2026-03-12T17:26
+- The Oracle peered into the abyss and saw a program 'halt' (1).

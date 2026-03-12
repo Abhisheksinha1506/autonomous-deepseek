@@ -6,7 +6,7 @@
 <!-- LATEST_STATUS_START -->
 | Generation | Narrative Event | Timestamp |
 | :--- | :--- | :--- |
-| 1200 | The Oracle saw a program 'loop' (0). | 2026-03-12 16:16 |
+| 1201 | The Oracle peered into the abyss and saw a program 'halt' (1). | 2026-03-12 17:26 |
 <!-- LATEST_STATUS_END -->
 
 ## 📖 The Analogy
