@@ -4166,3 +4166,6 @@
 
 ### Gen 1389 | 2026-03-20T06:00
 - Chaotic drift shifted coordinates to x=1.28.
+
+### Gen 1390 | 2026-03-20T07:09
+- Chaotic drift shifted coordinates to x=2.27.
